@@ -4,7 +4,7 @@ const res = require("express/lib/response")
 const PORT = process.env.PORT || 3000
 
 app.get("",(req,res) => {
-    res.send("hello World");
+    res.send("<h1>Fitiavana Sambatra<h1>");
 });
 
 app.listen(PORT,() => {
